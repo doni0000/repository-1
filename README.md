@@ -1,5 +1,5 @@
 # repository-1
-La nostra presentazione approfondisce il funzionamento dei negozi Amazon Go. \n
+La nostra presentazione approfondisce il funzionamento dei negozi Amazon Go. 
 Descrive:
   -come funziona
   -le tecnologie che sono utilizzate
