@@ -10,7 +10,8 @@ I sensori IoT (Internet of Things) sono dispositivi che rilevano dati dall'ambie
 Esempio: Un sensore di peso permette di rilevare quando un oggetto viene rimosso o aggiunto ad uno scaffale.
 
 <h3>Come funzionano</h3>
-Funzionamento di un sensore IoT:<br>
+Funzionamento di un sensore IoT:
+
   - Acquisizione dati → Il sensore raccoglie informazioni dall’ambiente.
   - Elaborazione locale → Un microcontrollore può elaborare i dati direttamente.
   - Trasmissione dati → I dati vengono inviati a un gateway o un cloud tramite protocolli di comunicazione (Wi-Fi, Bluetooth ecc.).
