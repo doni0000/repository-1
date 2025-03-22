@@ -1,6 +1,6 @@
 # repository-Amazon Go e Bluetooth LE
 <h1 color=red>Amazon Go</h1>
-Amazon Go è una catena di negozi fondata da Amazon che elimina la necessità di casse e commessi<br>
+Amazon Go è una catena di negozi fondata da Amazon che elimina la necessità di casse e commessi.<br>
 Funziona grazie all'utilizzo di diverse tecnologie tra cui: sensori IoT, IA e Bluetooth LE.
 
 <h1>Sensori IoT</h1>
