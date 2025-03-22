@@ -10,15 +10,14 @@ I sensori IoT (Internet of Things) sono dispositivi che rilevano dati dall'ambie
 Esempio: Un sensore di peso permette di rilevare quando un oggetto viene rimosso o aggiunto ad uno scaffale.
 
 <h3>Come funzionano</h3>
-Funzionamento di un sensore IoT:
 
   - Acquisizione dati → Il sensore raccoglie informazioni dall’ambiente.
   - Elaborazione locale → Un microcontrollore può elaborare i dati direttamente.
   - Trasmissione dati → I dati vengono inviati a un gateway o un cloud tramite protocolli di comunicazione (Wi-Fi, Bluetooth ecc.).
   - Analisi e azione → I dati vengono analizzati su server o cloud, e un sistema può prendere decisioni automatiche.
 
-Esempio:<br>
-Un sensore di peso rileva se un oggetto è stato tolto o aggiunto ad uno scaffale e lo comunica al sistema centrale.
+<h4>Esempio:</h4>
+Un sensore di peso rileva se un oggetto è stato tolto o aggiunto ad uno scaffale e lo comunica al sistema centrale.<br>
 
 Non esistono solo sensori di peso ma anche:
   -  Sensori di temperatura → Rilevano variazioni di temperatura.
@@ -37,6 +36,46 @@ Ad esempio essendo dipendenti dalla rete wi-fi in caso di un problema nella conn
 Il Bluetooth Low Energy è una tecnologia wireless progettata e commercializzata dal Bluetooth SIG per nuove applicazioni nel settore dall'assistenza sanitari, per le industrie automobilistiche e industrie dell'intrattenimento domestico.
 Rispetto al Bluetooth classico, il Bluetooth Low Energy ha lo scopo di fornire un consumo energetico e un costo notevolmente ridotto, mantenendo un intervallo di comunicazione simile.
 Bluetooth Low Energy utilizza le stesse frequenze radio a 2.4 GHz come il Bluetooth classico.
+
+<h1>Modalità di Comunicazione Bluetooth Low Energy (BLE)</h1>
+BLE ha due modalità principali di comunicazione:<br><ol>
+<li>Advertising Mode (Modalità Annuncio)</li>
+<li>Connected Mode (Modalità Connessione)</li>
+  </ol>
+<h3><strong>1.Advertising Mode (Modalità Annuncio)</strong></h3>
+Un dispositivo BLE <strong>trasmette pacchetti pubblicitari</strong> per essere rilevato da altri dispositivi vicini. Un dispositivo che sta cercando di connettersi può quindi rilevare questi annunci e avviare una connessione.<br>
+<h4>Come funziona l'advertising?</h4>
+<ul>
+<li>Un dispositivo (es.sensore) invia vari pacchetti.</li>
+<li>Un dispositivo centrale (es. beacon) riceve i pacchetti e può decidere se avviare una connessione</li>
+<li>I dispositivi possono scambiarsi informazioni anche senza  instaurare una conversazione</li>
+  </ul>
+<h4>Tipologie di advertising</h4>
+<ul>
+<li><strong>Connectable Advertising →</strong> I dispositivi instaurano una connessione prima di scambiarsi dati</li>
+<li><strong>Non-Connectable Advertising →</strong>Trasferimento di dati senza una connessione diretta</li>
+  </ul>
+<h4><strong>Esempi di utilizzo:</strong></h4>
+<ul>
+<li>Un beacon nel negozio di amazon gestisce le informazioni dei sensori.</li>
+<li>Un sensore di temperatura trasmette informazioni senza richiedere connessione.</li>
+</ul>
+
+<h3><strong>2.Connected Mode (Modalità Connessione)</strong></h3>
+Per comunicare si deve instaurare prima una connessione fissa.<br>
+Un dispositivo centrale (es. smartphone) e uno periferico (es. smartwatch )
+<h4>Vantaggi della modalità connessione</h4>
+ <ul>
+<li>Maggiore sicurezza perché è una connessione fissa.</li>
+<li>Possibilità di interazioni bidirezionali tra dispositivi.</li>
+  </ul>
+<h4><strong>Esempi di utilizzo:</strong></h4>
+<ul>
+<li>Uno smartwatch sincronizza i dati con lo smartphone.</li>
+<li>Un auricolare BLE trasmette dati audio.</li>
+</ul>
+
+
 
 <h1>Autenticazione BLE</h1>
 L'autenticazione è un processo che verifica l'identità di un dispositivo prima di stabilire una connessione sicura. Questo avviene tramite il protocollo UART e viene utilizzato principalmente nelle comunicazioni con un'APP.
@@ -95,13 +134,12 @@ Con questa tecnica si sfrutta l’angolo di arrivo del segnale trasmesso dai tag
 
 <h1>Presentazione</h1>
 Presentazione realizzata da Alessandro Donida Labati, Pandini Filippo, Bergomi Fabio e Linardi Cristian	<br>
-La nostra presentazione approfondisce il funzionamento dei negozi Amazon Go. 
-
+La nostra presentazione approfondisce il funzionamento dei negozi Amazon Go e le tecnologie che utlizzano. 
+<br>
 Descrive:
   - come funziona
   - le tecnologie che sono utilizzate
   - il tipo di Bluetooth utilizzato e a cosa serve
-
 
 
 <h3>Siti utilizzati</h3>
