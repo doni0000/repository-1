@@ -137,7 +137,7 @@ Presentazione realizzata da Alessandro Donida Labati, Pandini Filippo, Bergomi F
 La nostra presentazione approfondisce il funzionamento dei negozi Amazon Go e le tecnologie che utlizzano. 
 <br>
 Descrive:<ul>
-  <li> come funziona</ul>
+  <li>come funziona</ul>
   <li>le tecnologie che sono utilizzate</li>
   <li>il tipo di Bluetooth utilizzato e a cosa serve</li>
 </ul>
