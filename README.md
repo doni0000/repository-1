@@ -136,11 +136,11 @@ Con questa tecnica si sfrutta l’angolo di arrivo del segnale trasmesso dai tag
 Presentazione realizzata da Alessandro Donida Labati, Pandini Filippo, Bergomi Fabio e Linardi Cristian	<br>
 La nostra presentazione approfondisce il funzionamento dei negozi Amazon Go e le tecnologie che utlizzano. 
 <br>
-Descrive:
-  - come funziona
-  - le tecnologie che sono utilizzate
-  - il tipo di Bluetooth utilizzato e a cosa serve
-
+Descrive:<ul>
+  <li> come funziona</ul>
+  <li>le tecnologie che sono utilizzate</li>
+  <li>il tipo di Bluetooth utilizzato e a cosa serve</li>
+</ul>
 
 <h3>Siti utilizzati</h3>
 
